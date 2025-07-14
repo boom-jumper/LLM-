@@ -1,5 +1,7 @@
 # prompt engineering
 
+[prompt engineering guide](https://www.promptingguide.ai/zh)
+
 ## GPT原理
 > 基于已有的token，去预测下一个token的概率分布
 
@@ -22,5 +24,14 @@
 
 ## frequency penalty
 > penalty与token的频率成比例，penalty越高，token再次出现的概率越低。
+
+# prompt 奇淫技巧
+1. 指明输出格式，如json格式或者excel表格；
+2. 提供示例，让结合示例进行输出；
+3. 增加反问逻辑；
+4. 角色限定，可以提高准确率；
+5. 添加一句“让我们一步一步地解决这个问题”，有奇效【有论文证明】；
+6. 使用LLM做pe优化；
+7. 结构性提问，使用分隔符（特殊符号即可）为prompt设置分节
 
 
